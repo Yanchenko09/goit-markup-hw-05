@@ -490,7 +490,7 @@ button.current {
 	padding-left: 24px;
 	padding-right: 24px;
 	transform: translate(0, 100%);
-	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: background-color, transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-work-items-cards:hover .overlay,
 .link-work-items-cards:focus .overlay {
